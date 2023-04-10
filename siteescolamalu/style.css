@@ -1,8 +1,15 @@
+{ 
+    margin 0;
+    padding 0;
+}
+
 .cabecalho {
     background-color: #517fb3;
     color: white; 
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin: 24px;
 }
 
     .cabecalho-imagem {
@@ -11,4 +18,5 @@
     .cabecalho-lista-item{
         display: inline-block;
         margin: 0 16px;
+        font-size: 24px;
     }
