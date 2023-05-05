@@ -1,15 +1,17 @@
-{ 
-    margin 0;
-    padding 0;
+
+ *{
+    margin : 0;
+    padding: 0;
 }
 
-.cabecalho {
+
+header {
     background-color: #517fb3;
     color: white; 
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 24px;
+    padding:  24px 0;
 }
 
     .cabecalho-imagem {
@@ -19,4 +21,24 @@
         display: inline-block;
         margin: 0 16px;
         font-size: 24px;
+    }
+
+    .escola-imagem{
+        width: 20%;
+    }
+
+    .escola{
+        background-image: linear-gradient(#517fb3,#60d5dd);
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+
+    .escola-div-conteudo{
+        width: 35%;
+    }
+    .escola-titulo{
+        padding: 24px 0;
     }
